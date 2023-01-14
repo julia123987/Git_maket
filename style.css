@@ -166,6 +166,30 @@ h4{
 .info3-1 p{
     text-align: center;
 }
+#section4{
+    height: 75vh;
+    display: flex;
+}
+.background2{
+    width: 45%;
+    height: 100%;
+    background-color: white;
+    background: linear-gradient(45deg, rgba(255, 109, 109, 1) 52%, white 48%) center center / 100% 100% no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background2 img{
+    width: 500px;
+}
+.info4{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10%;
+}
 
 
 
