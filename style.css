@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@200&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -28,6 +28,14 @@ h3{
     font-style: normal; 
     color:#ff6d6d;
     text-transform: uppercase;
+}
+h4{
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 50px;
+    font-style: normal; 
+    text-transform: uppercase;
+    margin-top: 10px;
 }
 .caption{
     font-size: 38px;
@@ -98,4 +106,66 @@ h3{
     background-color: rgb(255, 109, 109);
     background: linear-gradient(135deg, rgb(219, 220, 220) 55%, rgba(255, 109, 109, 1) 45%) center center / 100% 100% no-repeat;
 }
+#section3{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(231, 231, 231, 0.382);
+}
+.img1{
+    position: relative;
+    z-index: 1;
+    top: 35px;
+    left: 300px;
+    width: 300px;
+}
+.img2{
+    position: relative;
+    z-index: 1;
+    left: -350px;
+    top: -320px;
+    width: 400px;
+}
+.img1 img{
+    width: 300px;
+    transform: rotate(80deg);
+}
+.img2 img{
+    width: 400px;
+    transform: rotate(10deg);
+}
+#section3 .content{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    z-index: 2;
+}
+.info3{
+    text-align: center;
+}
+.info3-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.info3-1 > div{
+    width: 350px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px;
+}
+.info3-1 p{
+    text-align: center;
+}
+
+
 
