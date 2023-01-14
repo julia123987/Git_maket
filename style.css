@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@200&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+main{
+    font-family: 'Exo', sans-serif;
+}
+.caption{
+    font-size: 58px;
+    font-weight: 100;
+    line-height: 79px;
+    font-style: normal; 
+    color: rgba(30, 30, 30, 0.838);  
+}
+.footnote{
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 40px;
+    font-style: normal; 
+    color: rgb(46, 46, 46);
+}
+#section1{
+    height: 100vh;
+    background-image: url(./joel-jasmin-forestbird-Zi9yS95gDUQ-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
+}
+#section1 .info{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+}
+.but{
+   width: 180px;
+   height: 45px;
+   border-radius: 3px;
+   background-color: #ff6d6d;
+   border: #ff6d6d;
+}
+.but a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Exo', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 800;
+}
+.info img{
+    width: 55px;
+    height: 55px;
+}
