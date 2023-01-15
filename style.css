@@ -190,6 +190,75 @@ h4{
     align-items: flex-start;
     padding: 10%;
 }
+#section5{
+    height: 100%;
+    background-image: url(./resource-database-kGU24dIAQRE-unsplash.jpg);
+    background-size: cover;
+}
+.info5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+}
+.info5 > div{
+    width: 350px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 3%;
+}
+.info5 .text1{
+    color: white;
+    margin-top: 15px;
+    line-height: 35px;
+    font-size: 21px;
+}
+.info5 h5{
+    color:  rgb(255, 109, 109);
+    font-weight: 400;
+    margin-bottom: 15px;
+    line-height: 35px;
+    font-size: 14px;
+}
+.info5 .quote{
+    color: rgb(201, 201, 201);
+    font-style: italic;
+    font-size: 14px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 16px;
+}
+.info5 .card1 img{
+    filter: invert(30%);
+    width: 75px;
+}
+.info6{
+    margin-top: 7%;
+    /* width: 85%; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    
+}
+.info6 > div{
+    width: 13%;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info6 img{
+    width: 100%;
+    filter: invert(100%);
+}
 
 
 
